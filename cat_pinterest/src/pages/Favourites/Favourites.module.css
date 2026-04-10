@@ -1,0 +1,17 @@
+.container {
+  padding: 20px; 
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, max-content));
+  gap: 40px; 
+  justify-content: center; 
+}
+
+.text{
+	font-size: 40px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
