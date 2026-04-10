@@ -1,6 +1,6 @@
 import styles from './ImageCard.module.css'
 import emptyHeart from '../../ui/icons/emptyHeart.svg'
-import filledHeart from './../../ui/icons/filledHeart.svg'
+import filledHeart from '../../ui/icons/filledHeart.svg'
 import { useFavorites } from '../../context/FavoritesContext'
 
 type Props = {

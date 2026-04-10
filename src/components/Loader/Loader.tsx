@@ -1,4 +1,4 @@
-import loaderGif from './../../ui/gif/loader.gif'
+import loaderGif from '../../ui/gif/loader.gif'
 import styles from './Loader.module.css'
 
 function Loader() {

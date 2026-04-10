@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react'
 import styles from './Home.module.css'
 import { fetchCats, type CatImage } from '../../api/fetchCats'
 import ImageCard from '../../components/ImageCard/ImageCard'
-import Loader from './../../components/Loader/Loader'
+import Loader from '../../components/Loader/Loader'
 
 function HomePage() {
   const [images, setImages] = useState<CatImage[]>([])
